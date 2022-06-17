@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url(/imagenes/Black-bricks-wall_1366x768.jpg);
+  min-height: 400px;
+}
+
+.header__container__navbar {
+  flex-direction: column;
+}
+
+.header__container__logotipo {
+  width: 200px;
+}
+
+.header__container__logotipo--img {
+  border: 10px rgba(185, 114, 28, 0.415) solid;
+  border-radius: 100px;
+  width: 100%;
+}
+
+.header__container__logotipo--texto {
+  text-align: center;
+  align-items: center;
+  font-family: "Permanent Marker";
+  color: white;
+  font-size: 40px;
+}
+
+.header__navbar__botones a {
+  font-size: 30px;
+  font-family: "Permanent Marker";
+}
+
+.section__titulo {
+  text-align: center;
+  align-items: center;
+  font-size: 80px;
+}
+/*# sourceMappingURL=estilos.css.map */
