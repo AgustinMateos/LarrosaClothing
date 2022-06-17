@@ -1,9 +1,32 @@
+.header {
+    background-image: url(/imagenes/Black-bricks-wall_1366x768.jpg);
+    min-height: 400px;
+}
 
-.header{background-image: url(/imagenes/Black-bricks-wall_1366x768.jpg); min-height: 400px;}
 .header__container__navbar {
     flex-direction: column;
 }
-.header__container__logotipo{width: 200px;}
-.header__container__logotipo--img{border:10px rgba(185, 114, 28, 0.415) solid; border-radius: 100px ; width: 100%;}
-.header__container__logotipo--texto{text-align: center; align-items: center; font-family: "Permanent Marker"; color: white;font-size: 40px;}
-.header__navbar__botones a{font-size: 31px;font-family: "Permanent Marker";}
+.header__container__navbar__boton{color:white}
+.header__container__logotipo {
+    width: 201px;
+}
+
+.header__container__logotipo--img {
+    border: 10px rgba(185, 114, 28, 0.415) solid;
+    border-radius: 100px;
+    width: 100%;
+}
+
+.header__container__logotipo--texto {
+    text-align: center;
+    align-items: center;
+    font-family: "Permanent Marker";
+    color: white;
+    font-size: 40px;
+}
+
+.header__navbar__botones a {
+    font-size: 30px;
+    font-family: "Permanent Marker";
+}
+
