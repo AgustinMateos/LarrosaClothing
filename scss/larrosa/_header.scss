@@ -1,12 +1,16 @@
 .header {
-    background-image: url(/imagenes/Black-bricks-wall_1366x768.jpg);
+    background-color: black;
     min-height: 400px;
 }
 
 .header__container__navbar {
     flex-direction: column;
 }
-.header__container__navbar__boton{color:white}
+
+.header__container__navbar__boton {
+    color: white
+}
+
 .header__container__logotipo {
     width: 201px;
 }
@@ -26,7 +30,6 @@
 }
 
 .header__navbar__botones a {
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Permanent Marker";
 }
-

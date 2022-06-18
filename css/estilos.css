@@ -5,7 +5,7 @@
 }
 
 .header {
-  background-image: url(/imagenes/Black-bricks-wall_1366x768.jpg);
+  background-color: black;
   min-height: 400px;
 }
 
@@ -36,12 +36,13 @@
 }
 
 .header__navbar__botones a {
-  font-size: 30px;
+  font-size: 40px;
   font-family: "Permanent Marker";
 }
 
 .main__index {
-  background-image: url(/imagenes/Black-bricks-wall_1366x768.jpg);
+  background-color: black;
+  min-height: 400px;
 }
 
 .section__titulo {
@@ -56,10 +57,11 @@
 .section__carousel--img {
   width: 100%;
   height: 800px;
+  border: 10px rgba(139, 86, 22, 0.611) solid;
 }
 
 .footer {
-  background-image: url(/imagenes/Black-bricks-wall_1366x768.jpg);
+  background-color: black;
 }
 
 .footer__container__logotipoFlex {
@@ -91,13 +93,123 @@
   display: flex;
   text-align: center;
   justify-content: center;
+  list-style-type: none;
 }
 
 .footer__container__lista--item a {
-  list-style-type: none;
   text-decoration: none;
   color: white;
   padding: 20px 20px;
   font-family: "Permanent Marker";
+}
+
+.footer__container__span {
+  text-align: center;
+  justify-items: center;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.section__local__titulo {
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.locales__texto {
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.locales__mapaFlex {
+  justify-content: center;
+}
+
+.locales__contenedorFlex {
+  justify-content: center;
+}
+
+.mainPrendas {
+  min-height: 700px;
+}
+
+.section__contenedor_prendas {
+  justify-content: space-evenly;
+}
+
+.section__contenedor_prendas-cards {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 1.25rem;
+}
+
+.section__contenedor__prendas__cards__img {
+  height: 200px;
+}
+
+.section_formulario {
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.section_formulario-item6 {
+  width: 400px;
+}
+
+.contacto_botonEnviar {
+  margin-top: 20px;
+}
+
+.Giftcards {
+  background-color: rgba(185, 114, 28, 0.415);
+  color: black;
+  min-height: 250px;
+}
+
+.Giftcards__contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gifcards__flex {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  overflow: auto;
+  padding-top: 20px;
+}
+
+.gifcards__flex--1 {
+  background-color: gold;
+  width: 80%;
+  max-width: 500px;
+  height: 200px;
+  border-radius: 30px;
+  padding: 1rem;
+  flex-shrink: 0;
+}
+
+.gifcards__flex--2 {
+  background-color: #dadada;
+  width: 80%;
+  max-width: 500px;
+  height: 200px;
+  border-radius: 30px;
+  padding: 1rem;
+  flex-shrink: 0;
+}
+
+.gifcards__flex--3 {
+  background-color: #92c6d4;
+  width: 80%;
+  max-width: 500px;
+  height: 200px;
+  border-radius: 30px;
+  padding: 1rem;
+  flex-shrink: 0;
 }
 /*# sourceMappingURL=estilos.css.map */
