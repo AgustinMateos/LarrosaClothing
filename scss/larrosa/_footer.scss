@@ -8,8 +8,10 @@
 
     .footer__container__logotipo--img {
         border: 10px $colorMarca solid;
-        border-radius: 100px;transition: 1s;
+        border-radius: 100px;
+        transition: 1s;
     }
+
     .footer__container__logotipo--img:hover {
         transform: scale(1.1);
     }
@@ -41,7 +43,10 @@
             color: $colorTextoPrincipal;
             padding: 20px 20px;
             font-family: "Permanent Marker";
-            &:hover {text-decoration: underline; }
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 
@@ -50,5 +55,9 @@
         justify-items: center;
         color: $colorTextoPrincipal;
         padding-bottom: 20px;
-    }.imgcenter{ text-align: center;}
+    }
+
+    .imgcenter {
+        text-align: center;
+    }
 }

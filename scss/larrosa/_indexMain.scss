@@ -2,18 +2,20 @@
     background-color: $FondoPrincipal;
     min-height: 400px;
 
-   
+
 
     .section__carousel--img {
         width: 100%;
         height: 800px;
         border: 10px $colorMarca solid;
     }
-} .section__titulo {
-        text-align: center;
-        align-items: center;
-        font-size: 150px;
-        font-family: "Permanent Marker";
-        color: $colorTextoPrincipal;
-        width: 100%;
-    }
+}
+
+.section__titulo {
+    text-align: center;
+    align-items: center;
+    font-size: 150px;
+    font-family: "Permanent Marker";
+    color: $colorTextoPrincipal;
+    width: 100%;
+}
