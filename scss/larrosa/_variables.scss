@@ -1,3 +1,8 @@
 $colorMarca: rgba(185, 114, 28, 0.415);
 $FondoPrincipal: black;
 $colorTextoPrincipal:white;
+
+$colores:extras2;
+@if $colores == extras2{ $color-principal:blue}
+@else if $colores == extras {$color-principal:rgb(255, 188, 63)}
+

@@ -1,5 +1,5 @@
 .Giftcards {
-    background-color: $colorMarca;
+    background-color: $FondoPrincipal;
     color: black;
     min-height: 250px;
 }
@@ -21,28 +21,37 @@
     background-color: gold;
     width: 80%;
     max-width: 500px;
-    height: 200px;
+    height: 210px;
     border-radius: 30px;
     padding: 1rem;
-    flex-shrink: 0;
+    flex-shrink: 0;  font-family: "Permanent Marker";
+    text-align: center;
+    font-size: 20px;
 }
 
 .gifcards__flex--2 {
     background-color: rgb(218, 218, 218);
     width: 80%;
     max-width: 500px;
-    height: 200px;
+    height: 210px;
     border-radius: 30px;
     padding: 1rem;
-    flex-shrink: 0;
+    flex-shrink: 0;  font-family: "Permanent Marker";
+    text-align: center;
+    font-size: 20px;
 }
 
 .gifcards__flex--3 {
     background-color: rgb(146, 198, 212);
     width: 80%;
     max-width: 500px;
-    height: 200px;
+    height: 210px;
     border-radius: 30px;
     padding: 1rem;
     flex-shrink: 0;
+    font-family: "Permanent Marker";
+    text-align: center;
+    font-size: 20px;
 }
+.giftcards__flex--img{border: 10px $colorMarca solid;
+    border-radius: 100px;}
