@@ -1,33 +1,50 @@
 .footer {
-    background-color: black;
-}
+    background-color: $FondoPrincipal;
 
-.footer__container__logotipoFlex {
-    justify-content: center;
-    padding-top: 20px;
-}
-
-.footer__container__logotipo--img {
-    border: 10px rgba(185, 114, 28, 0.415) solid;
-    border-radius: 100px;
-}
-
-.footer__container__aboutUs {
-    display: block;
-    text-align: center;
-    justify-content: center;
-    padding-top: 20px;
-
-    .footer__container__aboutUs__estilo {
-        font-size: 40px;
-        font-family: "Permanent Marker";
-        ;
-        color: white;
-        text-decoration: none;
-        list-style-type: none
+    .footer__container__logotipoFlex {
+        justify-content: center;
+        padding-top: 20px;
     }
+
+    .footer__container__logotipo--img {
+        border: 10px $colorMarca solid;
+        border-radius: 100px;
+    }
+
+    .footer__container__aboutUs {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        padding-top: 20px;
+
+        .footer__container__aboutUs__estilo {
+            font-size: 40px;
+            font-family: "Permanent Marker";
+            ;
+            color: $colorTextoPrincipal;
+            text-decoration: none;
+            list-style-type: none
+        }
+    }
+
+    .footer__container__lista {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        list-style-type: none;
+
+        .footer__container__lista--item a {
+            text-decoration: none;
+            color: $colorTextoPrincipal;
+            padding: 20px 20px;
+            font-family: "Permanent Marker";
+        }
+    }
+
+    .footer__container__span {
+        text-align: center;
+        justify-items: center;
+        color: $colorTextoPrincipal;
+        padding-bottom: 20px;
+    }.imgcenter{ text-align: center;}
 }
-.footer__container__lista{display: flex; text-align: center; justify-content: center;list-style-type: none}
-.footer__container__lista--item a{text-decoration: none;color: white;padding: 20px 20px;font-family: "Permanent Marker";
-}
-.footer__container__span{text-align: center; justify-items: center; color: white;padding-bottom: 20px;}
