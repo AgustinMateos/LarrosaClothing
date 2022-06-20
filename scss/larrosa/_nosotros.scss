@@ -1,0 +1,12 @@
+.nosotros__texto {
+    @extend.locales__texto;
+    font-size: 25px;
+    font-family: "Macondo";
+}
+
+.nosotros__textoTitulo {
+    font-size: 80px;
+    @extend.nosotros__texto
+}
+
+;

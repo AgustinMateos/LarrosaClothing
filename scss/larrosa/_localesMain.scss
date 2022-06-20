@@ -8,6 +8,7 @@
     color: $colorTextoPrincipal;
     justify-content: map-get($estilos, justcont);
     text-align: map-get( $estilos, textalig );
+   
 }
 
 .locales__mapaFlex {

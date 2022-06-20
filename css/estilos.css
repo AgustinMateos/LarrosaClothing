@@ -160,7 +160,7 @@ main {
   justify-content: center;
 }
 
-.locales__texto {
+.locales__texto, .nosotros__texto, .nosotros__textoTitulo {
   color: white;
   justify-content: center;
   text-align: center;
@@ -291,6 +291,15 @@ main {
   border-radius: 100px;
 }
 
+.nosotros__texto, .nosotros__textoTitulo {
+  font-size: 25px;
+  font-family: "Macondo";
+}
+
+.nosotros__textoTitulo {
+  font-size: 80px;
+}
+
 @media screen and (max-width: 797px) {
   .section__titulo {
     font-size: 100px;
@@ -348,6 +357,9 @@ main {
 @media screen and (max-width: 416px) {
   .section__titulo {
     font-size: 70px;
+  }
+  .footer .footer__container__aboutUs .footer__container__aboutUs__estilo {
+    font-size: 30px;
   }
 }
 
