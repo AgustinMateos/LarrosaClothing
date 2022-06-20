@@ -21,6 +21,14 @@
     }
 
 }
+@media screen and (max-width:681px) {
+    .section__formularia--edad{padding-left: 230px;padding-right: 210px;}
+    .section__formularia--nacionalidad{padding-left: 100px;padding-right: 100px;}
+    .section__formularia--direccion{padding-left: 160px;padding-right: 160px;}
+    .section__formularia--comentario{padding-left: 120px;padding-right: 150px;}
+    .section__formularia--cdc{padding-left: 0px;}
+
+}
 
 @media screen and (max-width:648px) {
     .section__titulo {
@@ -39,27 +47,35 @@
         height: 400px;
         
     }
+    
 }
+@media screen and (max-width: 527px)
+    {.section__formularia--edad {
+    padding-left: 180px;
+    padding-right: 300px;}}
+
 
 @media screen and (max-width:446px) {
     .section__formularia--edad {
         padding-left: 0px;
+        padding-right: 0px;
     }
 
     .section__formularia--nacionalidad {
         padding-left: 0px;
+        padding-right: 0px;
     }
 
-    .section__formularia--nacionalidad {
-        padding-left: 0px;
-    }
+    
 
     .section__formularia--direccion {
         padding-left: 0px;
+        padding-right: 0px;
     }
 
     .section__formularia--comentario {
         padding-left: 0px;
+        padding-right: 0px;
     }
     .footer .footer__container__lista .footer__container__lista--item a {
        
