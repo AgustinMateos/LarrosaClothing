@@ -28,7 +28,10 @@
             ;
             color: $colorTextoPrincipal;
             text-decoration: none;
-            list-style-type: none
+            list-style-type: none;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 

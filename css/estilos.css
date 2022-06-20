@@ -126,6 +126,10 @@ main {
   list-style-type: none;
 }
 
+.footer .footer__container__aboutUs .footer__container__aboutUs__estilo:hover {
+  text-decoration: underline;
+}
+
 .footer .footer__container__lista {
   display: flex;
   justify-content: center;
