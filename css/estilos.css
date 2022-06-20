@@ -364,5 +364,8 @@ main {
   .section_formulario-itemc {
     width: 300px;
   }
+  .section_formulario {
+    font-size: 30px;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
