@@ -319,6 +319,9 @@ main {
   .footer .footer__container__lista .footer__container__lista--item a {
     font-size: 15px;
   }
+  .main__index .section__carousel--img {
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 446px) {
