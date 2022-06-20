@@ -1,10 +1,19 @@
 .section_formulario {
-    justify-content: center;
-    text-align: center;
+    justify-content: map-get($estilos, justcont );
+    text-align: map-get( $estilos, textalig );
     color: $colorTextoPrincipal;
     font-size: 40px;
+    
 }
 
-.section_formulario-item6 {
-    width: 400px;
+.section_formulario-itemb {
+    width: 420px;height: 60px;margin-bottom: 20px;
 }
+.section_formulario-itemc {
+    width: 420px;height: 60px;;
+}
+.section__formularia--edad{padding-left: 230px;}
+.section__formularia--nacionalidad{padding-left: 100px;}
+.section__formularia--direccion{padding-left: 160px;}
+.section__formularia--comentario{padding-left: 120px;}
+.section__formularia--cdc{padding-left: 0px;}

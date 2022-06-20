@@ -6,12 +6,14 @@
 
 .locales__texto {
     color: $colorTextoPrincipal;
-    text-align: center;
-    justify-content: center;
+    justify-content: map-get($estilos, justcont);
+    text-align: map-get( $estilos, textalig );
 }
 
 .locales__mapaFlex {
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .locales__contenedorFlex {

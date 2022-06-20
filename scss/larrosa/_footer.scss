@@ -2,7 +2,7 @@
     background-color: $FondoPrincipal;
 
     .footer__container__logotipoFlex {
-        justify-content: center;
+        justify-content: map-get($estilos, justcont);
         padding-top: 20px;
     }
 
@@ -18,8 +18,8 @@
 
     .footer__container__aboutUs {
         display: block;
-        text-align: center;
-        justify-content: center;
+        justify-content: map-get($estilos, justify-content);
+        text-align: map-get($estilos, textalig);
         padding-top: 20px;
 
         .footer__container__aboutUs__estilo {
@@ -34,16 +34,16 @@
 
     .footer__container__lista {
         display: flex;
-        text-align: center;
-        justify-content: center;
+        justify-content: map-get($estilos, justcont);
         list-style-type: none;
 
         .footer__container__lista--item a {
             text-decoration: none;
             color: $colorTextoPrincipal;
-            padding: 20px 20px;
+            padding: 8px;
             font-family: "Permanent Marker";
-
+            font-size: 25px;
+            
             &:hover {
                 text-decoration: underline;
             }
@@ -51,13 +51,12 @@
     }
 
     .footer__container__span {
-        text-align: center;
-        justify-items: center;
+        text-align: map-get($estilos, textalig);
         color: $colorTextoPrincipal;
         padding-bottom: 20px;
     }
 
     .imgcenter {
-        text-align: center;
+        text-align: map-get( $estilos, textalig );
     }
 }

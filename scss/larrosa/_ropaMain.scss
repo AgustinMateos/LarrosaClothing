@@ -3,7 +3,8 @@
 }
 
 .section__contenedor_prendas {
-    justify-content: space-evenly;
+    justify-content: map-get($estilos, justifycontent2 );
+    
 }
 
 .section__contenedor_prendas-cards {

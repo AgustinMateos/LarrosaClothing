@@ -7,3 +7,16 @@
 .colorhr {
     color: white;
 }
+main {background-color: $mainColor;}
+
+.section__bordes {
+    border-top: 10px $colorMarca double;
+    border-bottom: 10px $colorMarca double;
+}
+
+.navbar-toggler {
+    background-color: $colorMarca; 
+}
+.navbar-nav {
+    align-items: center;
+}

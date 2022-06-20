@@ -8,6 +8,23 @@
   color: white;
 }
 
+main {
+  background-color: black;
+}
+
+.section__bordes {
+  border-top: 10px rgba(185, 114, 28, 0.415) double;
+  border-bottom: 10px rgba(185, 114, 28, 0.415) double;
+}
+
+.navbar-toggler {
+  background-color: rgba(185, 114, 28, 0.415);
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
 .header {
   background-color: black;
   min-height: 400px;
@@ -37,8 +54,8 @@
 }
 
 .header__container__navbar .header__container__logotipo .header__container__logotipo--texto {
+  justify-content: center;
   text-align: center;
-  align-items: center;
   font-family: "Permanent Marker";
   color: white;
   font-size: 40px;
@@ -47,6 +64,8 @@
 .header__container__navbar .header__navbar__botones a {
   font-size: 40px;
   font-family: "Permanent Marker";
+  margin-left: 40px;
+  margin-right: 20px;
 }
 
 .header__container__navbar .header__navbar__botones a:hover {
@@ -61,12 +80,13 @@
 .main__index .section__carousel--img {
   width: 100%;
   height: 800px;
-  border: 10px rgba(185, 114, 28, 0.415) solid;
+  border-top: 10px rgba(185, 114, 28, 0.415) solid;
+  border-bottom: 10px rgba(185, 114, 28, 0.415) solid;
 }
 
 .section__titulo {
+  justify-content: center;
   text-align: center;
-  align-items: center;
   font-size: 150px;
   font-family: "Permanent Marker";
   color: white;
@@ -95,7 +115,6 @@
 .footer .footer__container__aboutUs {
   display: block;
   text-align: center;
-  justify-content: center;
   padding-top: 20px;
 }
 
@@ -109,7 +128,6 @@
 
 .footer .footer__container__lista {
   display: flex;
-  text-align: center;
   justify-content: center;
   list-style-type: none;
 }
@@ -117,8 +135,9 @@
 .footer .footer__container__lista .footer__container__lista--item a {
   text-decoration: none;
   color: white;
-  padding: 20px 20px;
+  padding: 8px;
   font-family: "Permanent Marker";
+  font-size: 25px;
 }
 
 .footer .footer__container__lista .footer__container__lista--item a:hover {
@@ -127,7 +146,6 @@
 
 .footer .footer__container__span {
   text-align: center;
-  justify-items: center;
   color: white;
   padding-bottom: 20px;
 }
@@ -144,12 +162,14 @@
 
 .locales__texto {
   color: white;
-  text-align: center;
   justify-content: center;
+  text-align: center;
 }
 
 .locales__mapaFlex {
   justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .locales__contenedorFlex {
@@ -182,14 +202,44 @@
   font-size: 40px;
 }
 
-.section_formulario-item6 {
-  width: 400px;
+.section_formulario-itemb {
+  width: 420px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.section_formulario-itemc {
+  width: 420px;
+  height: 60px;
+}
+
+.section__formularia--edad {
+  padding-left: 230px;
+}
+
+.section__formularia--nacionalidad {
+  padding-left: 100px;
+}
+
+.section__formularia--direccion {
+  padding-left: 160px;
+}
+
+.section__formularia--comentario {
+  padding-left: 120px;
+}
+
+.section__formularia--cdc {
+  padding-left: 0px;
 }
 
 .contacto_botonEnviar {
   margin-top: 20px;
-  width: 8rem;
-  height: 4rem;
+  width: 5rem;
+  height: 3rem;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: "Permanent Marker";
 }
 
 .Giftcards {
@@ -211,7 +261,7 @@
   padding-top: 20px;
 }
 
-.gifcards__flex--1 {
+.gifcards__flex--1, .gifcards__flex--2, .gifcards__flex--3 {
   background-color: gold;
   width: 80%;
   max-width: 500px;
@@ -226,32 +276,89 @@
 
 .gifcards__flex--2 {
   background-color: #dadada;
-  width: 80%;
-  max-width: 500px;
-  height: 210px;
-  border-radius: 30px;
-  padding: 1rem;
-  flex-shrink: 0;
-  font-family: "Permanent Marker";
-  text-align: center;
-  font-size: 20px;
 }
 
 .gifcards__flex--3 {
   background-color: #92c6d4;
-  width: 80%;
-  max-width: 500px;
-  height: 210px;
-  border-radius: 30px;
-  padding: 1rem;
-  flex-shrink: 0;
-  font-family: "Permanent Marker";
-  text-align: center;
-  font-size: 20px;
 }
 
 .giftcards__flex--img {
   border: 10px rgba(185, 114, 28, 0.415) solid;
   border-radius: 100px;
+}
+
+@media screen and (max-width: 797px) {
+  .section__titulo {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .section_formulario-itemb {
+    width: 320px;
+  }
+  .section_formulario-itemc {
+    width: 320px;
+  }
+  .footer .footer__container__lista .footer__container__lista--item a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .section__titulo {
+    font-size: 90px;
+  }
+}
+
+@media screen and (max-width: 533px) {
+  .footer .footer__container__lista .footer__container__lista--item a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 446px) {
+  .section__formularia--edad {
+    padding-left: 0px;
+  }
+  .section__formularia--nacionalidad {
+    padding-left: 0px;
+  }
+  .section__formularia--nacionalidad {
+    padding-left: 0px;
+  }
+  .section__formularia--direccion {
+    padding-left: 0px;
+  }
+  .section__formularia--comentario {
+    padding-left: 0px;
+  }
+  .footer .footer__container__lista .footer__container__lista--item a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  .section__titulo {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 362px) {
+  .header__container__navbar .header__navbar__botones a {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .section__titulo {
+    font-size: 60px;
+  }
+  .section_formulario-itemb {
+    width: 300px;
+  }
+  .section_formulario-itemc {
+    width: 300px;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
