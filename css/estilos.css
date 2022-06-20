@@ -203,46 +203,47 @@ main {
   justify-content: center;
   text-align: center;
   color: white;
-  font-size: 40px;
+  font-size: 20px;
+  width: 100%;
 }
 
-.section_formulario-itemb {
-  width: 420px;
-  height: 60px;
-  margin-bottom: 20px;
+.section__formulario--Input {
+  width: 60%;
+  margin-bottom: 10px;
 }
 
-.section_formulario-itemc {
-  width: 420px;
-  height: 60px;
-}
-
-.section__formularia--edad {
-  padding-left: 230px;
-}
-
-.section__formularia--nacionalidad {
-  padding-left: 100px;
-}
-
-.section__formularia--direccion {
-  padding-left: 160px;
-}
-
-.section__formularia--comentario {
-  padding-left: 120px;
-}
-
-.section__formularia--cdc {
-  padding-left: 0px;
+.section__formulario--Textarea {
+  height: 80px;
+  width: 60%;
 }
 
 .contacto_botonEnviar {
   margin-top: 20px;
-  width: 10rem;
-  height: 3rem;
+  width: 8rem;
+  height: 2rem;
   margin-bottom: 20px;
+  font-size: 15px;
+  font-family: "Permanent Marker";
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.section_formularioC {
+  justify-content: center;
+  text-align: center;
+  color: white;
   font-size: 20px;
+  width: 100%;
+}
+
+.contacto_botonEnviar {
+  margin-top: 20px;
+  width: 8rem;
+  height: 2rem;
+  margin-bottom: 20px;
+  font-size: 15px;
   font-family: "Permanent Marker";
   text-align: center;
   color: black;
@@ -304,49 +305,24 @@ main {
   font-size: 80px;
 }
 
-@media screen and (max-width: 797px) {
-  .section__titulo {
-    font-size: 100px;
+@media screen and (max-width: 1114px) {
+  .header__container__navbar .header__navbar__botones a {
+    font-size: 25px;
   }
 }
 
 @media screen and (max-width: 786px) {
-  .section_formulario-itemb {
-    width: 320px;
-  }
-  .section_formulario-itemc {
-    width: 320px;
-  }
   .footer .footer__container__lista .footer__container__lista--item a {
     font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 681px) {
-  .section__formularia--edad {
-    padding-left: 230px;
-    padding-right: 210px;
-  }
-  .section__formularia--nacionalidad {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  .section__formularia--direccion {
-    padding-left: 160px;
-    padding-right: 160px;
-  }
-  .section__formularia--comentario {
-    padding-left: 120px;
-    padding-right: 150px;
-  }
-  .section__formularia--cdc {
-    padding-left: 0px;
   }
 }
 
 @media screen and (max-width: 648px) {
   .section__titulo {
     font-size: 90px;
+  }
+  .section__formulario--Input {
+    font-size: 15px;
   }
 }
 
@@ -359,30 +335,7 @@ main {
   }
 }
 
-@media screen and (max-width: 527px) {
-  .section__formularia--edad {
-    padding-left: 180px;
-    padding-right: 300px;
-  }
-}
-
 @media screen and (max-width: 446px) {
-  .section__formularia--edad {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .section__formularia--nacionalidad {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .section__formularia--direccion {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .section__formularia--comentario {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
   .footer .footer__container__lista .footer__container__lista--item a {
     font-size: 10px;
   }
@@ -390,7 +343,7 @@ main {
 
 @media screen and (max-width: 416px) {
   .section__titulo {
-    font-size: 70px;
+    font-size: 60px;
   }
   .footer .footer__container__aboutUs .footer__container__aboutUs__estilo {
     font-size: 30px;
@@ -401,20 +354,12 @@ main {
   .header__container__navbar .header__navbar__botones a {
     font-size: 30px;
   }
-}
-
-@media screen and (max-width: 345px) {
-  .section__titulo {
-    font-size: 60px;
+  .section__formulario--Input {
+    font-size: 11px;
   }
-  .section_formulario-itemb {
-    width: 300px;
-  }
-  .section_formulario-itemc {
-    width: 300px;
-  }
-  .section_formulario {
-    font-size: 30px;
+  .section__formulario--Textarea {
+    height: 50px;
+    font-size: 11px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
