@@ -1,12 +1,12 @@
 .section__local__titulo {
     color: $colorTextoPrincipal;
     text-align: center;
-    justify-content: center;
+   
 }
 
 .locales__texto {
     color: $colorTextoPrincipal;
-    justify-content: map-get($estilos, justcont);
+   
     text-align: map-get( $estilos, textalig );
    
 }

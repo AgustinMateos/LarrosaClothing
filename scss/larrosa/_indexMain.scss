@@ -13,7 +13,6 @@
 }
 
 .section__titulo {
-    justify-content: map-get($estilos, justcont);
     text-align: map-get( $estilos, textalig );
     font-size: 150px;
     font-family: "Permanent Marker";

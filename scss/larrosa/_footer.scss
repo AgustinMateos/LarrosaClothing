@@ -18,7 +18,6 @@
 
     .footer__container__aboutUs {
         display: block;
-        justify-content: map-get($estilos, justify-content);
         text-align: map-get($estilos, textalig);
         padding-top: 20px;
 

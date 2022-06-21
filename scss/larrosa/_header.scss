@@ -25,7 +25,6 @@
         }
 
         .header__container__logotipo--texto {
-            justify-content: map-get($estilos, justcont);
             text-align: map-get($estilos, textalig);
             font-family: "Permanent Marker";
             color: $colorTextoPrincipal;
