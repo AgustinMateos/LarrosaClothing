@@ -34,6 +34,10 @@ main {
   flex-direction: column;
 }
 
+.header__container__navbar .header__container__navbarq {
+  padding-left: 18px;
+}
+
 .header__container__navbar .header__container__navbar__boton {
   color: white;
 }
