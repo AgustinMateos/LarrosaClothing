@@ -283,6 +283,10 @@ main {
   font-size: 20px;
 }
 
+.giftcards_titulo {
+  font-size: 25px;
+}
+
 .gifcards__flex--2 {
   background-color: #dadada;
 }
@@ -364,8 +368,14 @@ main {
 }
 
 @media screen and (max-width: 359px) {
-  .gifcards__flex--1, .gifcards__flex--2, .gifcards__flex--3, .gifcards__flex--2, .gifcards__flex--3 {
+  .gifcards__flex--1, .gifcards__flex--2, .gifcards__flex--3 {
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .giftcards_titulo {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
