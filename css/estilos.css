@@ -336,11 +336,11 @@ main {
 
 @media screen and (max-width: 416px) {
   .header__container__navbar .header__container__logotipo .header__container__logotipo--img {
-    width: 100px;
-    height: 100px;
+    width: 112px;
+    height: 112px;
   }
   .header__container__navbar .header__container__logotipo .header__container__logotipo--texto {
-    font-size: 13px;
+    font-size: 15px;
     padding-top: 10px;
   }
   .section__titulo {
