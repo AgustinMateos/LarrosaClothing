@@ -1,6 +1,6 @@
 .header {
     background-color: $FondoPrincipal;
-    min-height: 400px;
+    min-height: 100px;
 }
 
 .header__container__navbar {
@@ -11,13 +11,15 @@
     }
 
     .header__container__logotipo {
-        width: 201px;
+        
 
         .header__container__logotipo--img {
             border: 10px $colorMarca solid;
             border-radius: 100px;
             width: 100%;
             transition: 1s;
+            width: 170px;
+            height: 170px;
         }
 
         .header__container__logotipo--img:hover {
@@ -28,14 +30,15 @@
             text-align: map-get($estilos, textalig);
             font-family: "Permanent Marker";
             color: $colorTextoPrincipal;
-            font-size: 40px;
+            font-size: 30px;
+            padding-top: 10px;
         }
     }
 
     .header__navbar__botones a {
         font-size: 40px;
         font-family: "Permanent Marker";
-        margin-left:40px;
+        margin-left: 40px;
         margin-right: 20px;
 
         &:hover {

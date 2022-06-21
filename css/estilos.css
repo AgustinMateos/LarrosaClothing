@@ -27,7 +27,7 @@ main {
 
 .header {
   background-color: black;
-  min-height: 400px;
+  min-height: 100px;
 }
 
 .header__container__navbar {
@@ -38,15 +38,13 @@ main {
   color: white;
 }
 
-.header__container__navbar .header__container__logotipo {
-  width: 201px;
-}
-
 .header__container__navbar .header__container__logotipo .header__container__logotipo--img {
   border: 10px rgba(185, 114, 28, 0.415) solid;
   border-radius: 100px;
   width: 100%;
   transition: 1s;
+  width: 170px;
+  height: 170px;
 }
 
 .header__container__navbar .header__container__logotipo .header__container__logotipo--img:hover {
@@ -57,7 +55,8 @@ main {
   text-align: center;
   font-family: "Permanent Marker";
   color: white;
-  font-size: 40px;
+  font-size: 30px;
+  padding-top: 10px;
 }
 
 .header__container__navbar .header__navbar__botones a {
@@ -342,6 +341,14 @@ main {
   .footer .footer__container__aboutUs .footer__container__aboutUs__estilo {
     font-size: 30px;
   }
+  .header__container__navbar .header__container__logotipo .header__container__logotipo--img {
+    width: 100px;
+    height: 100px;
+  }
+  .header__container__navbar .header__container__logotipo .header__container__logotipo--texto {
+    font-size: 15px;
+    padding-top: 10px;
+  }
 }
 
 @media screen and (max-width: 362px) {
@@ -361,9 +368,6 @@ main {
   .gifcards__flex--1, .gifcards__flex--2, .gifcards__flex--3 {
     font-size: 15px;
   }
-}
-
-@media screen and (max-width: 359px) {
   .giftcards_titulo {
     font-size: 20px;
   }
